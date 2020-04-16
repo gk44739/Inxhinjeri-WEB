@@ -1,0 +1,81 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #7fffd4;
+}
+header{
+	width: 90%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: baseline;
+}
+header img{
+	width: 100px;
+	height: 100px;
+}
+header ul{
+	list-style: none;
+	margin: 0;
+}
+header ul li{
+	display: inline-block;
+}
+header ul li a{
+	text-decoration: none;
+	color: #000;
+}
+header ul li a:hover{
+	color: red;
+}
+.active{
+	color: red;
+}
+main{
+}
+.login_box{
+	margin: 100px auto;
+	background-color: #329da8;
+	border-radius: 20px;
+	width: 315px;
+	height: 280px;
+	text-align:center;
+}
+.login_box_inner{
+	padding: 40px;
+}
+.login_box a{
+	text-decoration: none;
+	color: #000;
+	padding: 0 10px;
+	font-weight: bold;
+	border-left: 2px solid gray;
+	border-right: 2px solid gray;
+}
+.login_box a:first-child{
+	padding-right: 30px;
+	border-right: none;
+}
+.login_box form input{
+	background-color: lightgray;
+	border-radius: 20px;
+	border-style: none;
+	padding: 5px 20px;
+	margin: 10px 0;
+}
+.login_box form{
+	margin-top: 20px;
+}
+.login_box form input:last-child{
+	padding: 5px 20px;
+	background-color: #4caf50;
+}
+footer{
+	width: 100%;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+}
+footer p{
+	margin: 0;
+}
