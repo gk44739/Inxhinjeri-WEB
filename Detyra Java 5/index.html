@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Detyra Java 5</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header>
+        <div class="foto__header">
+            <img src="img/UBT-LOGO.png" alt="UBT Logo">
+        </div>
+
+        <nav>
+            <ul>
+                <li onclick="larger(this.id)" id="home">Home</li>
+                <li onclick="larger(this.id)" id="about">About Us</li>
+                <li onclick="larger(this.id)" id="contact">Contact</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="login__form">
+            <div class="forma">
+                <button onclick="login()" class="form" id="Login">
+                    Login
+                </button>
+
+                <button onclick="register()" class="form" id="Register">
+                    Register
+                </button>
+            </div>
+
+            <div class="input__content" id="input__login">
+                <form action="">
+                    <p>
+                        <label for="username">Username:</label>
+                        <input type="text" name="username" id="username" placeholder="username...">
+                    </p>
+                    <p>
+                        <label for="password">Password:</label>
+                        <input type="password" name="password" id="password" placeholder="password...">
+                    </p>    
+                    <input onclick="loginButton()" type="submit" name="" id="" value="Login">
+                </form>
+            </div>
+
+            <div class="input__content" id="input__register">
+                <form action="">
+                    <p>
+                        <label for="regusername">Username:</label>
+                        <input type="text" name="regusername" id="regusername" placeholder="username...">
+                    </p>
+                    <p>
+                        <label for="regpassword">New Password:</label>
+                        <input type="password" name="regpassword" id="regpassword" placeholder="new password...">
+                    </p>
+                    <p>
+                        <label for="conpassword">Confirm Password:</label>
+                        <input type="password" name="conpassword" id="conpassword" placeholder="confirm password...">
+                    </p>      
+                    <input onclick="registerButton()" type="submit" name="" id="" value="Register">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p><a href="https://github.com/gk44739/Inxhinjeri-WEB.git">Gentrit Krasniqi Link</a></p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
